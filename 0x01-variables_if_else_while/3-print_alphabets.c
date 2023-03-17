@@ -15,6 +15,9 @@ int main(void)
 	for (i = 0; i < 26 ; i++)
 	{
 		putchar(tolower(a[i]));
+	}
+	for (i = 0; i < 26 ; i++)
+	{
 		putchar(toupper(a[i]));
 	}
 	putchar('\n');
