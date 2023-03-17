@@ -9,12 +9,11 @@
 
 int main(void)
 {
-	char a;
+	char a[] = "abcdefjhigqlmnopkrstuvwxyz";
 
-	a = 'a';
-	for (a ; a <= 'z' ; a++)
+	for (int i = 0; i < 26 ; i++)
 	{
-		putchar(tolower(a));
+		putchar(tolower(a[i]));
 	}
 	return (0);
 }
