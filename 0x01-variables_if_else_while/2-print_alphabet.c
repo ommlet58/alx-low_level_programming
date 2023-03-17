@@ -16,6 +16,6 @@ int main(void)
 	{
 		putchar(tolower(a[i]));
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
