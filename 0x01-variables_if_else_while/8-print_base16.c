@@ -9,7 +9,7 @@ int main(void)
 	int num;
 	char letter;
 
-	for (num = 1; num <= 10; num++)
+	for (num = 0; num <= 10; num++)
 	{
 		if (num < 10)
 		{
