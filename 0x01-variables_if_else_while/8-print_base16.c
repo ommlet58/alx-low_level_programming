@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (num < 10)
 		{
-			putchar(num);
+			putchar((num % 10) + '0');
 		} else
 		{
 			for (letter = 'a' ; letter <= 'f'; letter++)
