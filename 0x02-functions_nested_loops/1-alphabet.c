@@ -3,16 +3,13 @@
 /**
  * print_alphabet - print the alphabits
  *
- * Return: Always 0 (Success)
  */
 void print_alphabet(void)
 {
-	int a;
+	char letter;
 
-	for (a = 'a'; a <= 'z'; a++)
-	{
-		_putchar(a);
-	}
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+
 	_putchar('\n');
-	return (0);
 }
