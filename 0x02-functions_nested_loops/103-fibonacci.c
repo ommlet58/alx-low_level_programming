@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the sum of even-valued 
+ * main - Prints the sum of even-valued
  *
  * Return: Always 0.
  */
