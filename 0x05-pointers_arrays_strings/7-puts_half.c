@@ -19,7 +19,7 @@ void puts_half(char *str)
 	else
 		p = (a - 1) / 2;
 
-	for (p -= 1; p < a; p++)
+	for (p; p < a; p++)
 	{
 		_putchar(str[p]);
 	}
