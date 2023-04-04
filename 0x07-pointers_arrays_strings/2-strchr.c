@@ -1,10 +1,12 @@
+
+#include <stdio.h>
 #include "main.h"
-#include <stdio.>
+
 /**
- * _strchr - locates a character in a string
- * @s: the string where to locat the caracter
- * @c: the caracter to locat
- * Return: a pointer to the first occurrence of the caracter
+ * _strchr - Entry point
+ * @s: input
+ * @c: input
+ * Return: Always 0 (Success)
  */
 char *_strchr(char *s, char c)
 {
