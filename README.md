@@ -1,1 +1,1 @@
-more of functions and nasted loops 
+creatung a static library
