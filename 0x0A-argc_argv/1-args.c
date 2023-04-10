@@ -1,11 +1,12 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 
-/*
- * main -prints number of atrguments
- * @argc: the number of arguments
- * @argv: array of arguments
- * Retrun: 0
+/**
+ * main -prints number of arguments passed to a programs
+ * @argc: number of command line
+ * @argv: array of command line
+ * Return: 0
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
