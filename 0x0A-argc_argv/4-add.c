@@ -4,7 +4,7 @@
 #include <string.h>
 #include <ctype.h>
 /**
- * find_char: check if there is symbols
+ * find_char -check if there is symbols
  * @arry: array to be ckecked
  * Return: 0 if there a symbol otherwise return 1
  */
@@ -26,7 +26,7 @@ int find_char(char *arry)
 /**
  * main -add two arguments
  * @argc: number of argments
- * @atgv: array of argemnts
+ * @argv: array of argemnts
  * Return: 0
  */
 int main(int argc, char *argv[])
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 		} else
 		{
 			printf("Error\n");
-			return(1);
+			return (1);
 		}
 	}
 	printf("%d\n", sum);
